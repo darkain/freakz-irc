@@ -1,0 +1,132 @@
+[Root]
+Most Recent Package=FreakZ
+
+
+[Package|FreakZ|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Programming\FreakZ\Package
+
+[Package|FreakZ|Configure DAO ISAMs]
+Applicable=Yes
+Excel=No
+Text=No
+Xbase=No
+Paradox=No
+Lotus=No
+Jet 2.x=No
+
+[Package|FreakZ|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|FreakZ|Files Found]
+
+[Package|FreakZ|Files Released]
+AXDist.exe=
+
+[Package|FreakZ|Missing Dependency Information]
+
+[Package|FreakZ|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=
+
+[Package|FreakZ|Files Added]
+
+[Package|FreakZ|Files Removed]
+
+[Package|FreakZ|Files In Project]
+C:\Programming\FreakZ\IRCPRE2.EXE=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\VB6\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\VB6\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\VB6\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\VB6\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|FreakZ|Configure Registry Files]
+Applicable=No
+
+[Package|FreakZ|Configure Remote Servers]
+Applicable=No
+
+[Package|FreakZ|Install Locations]
+C:\Programming\FreakZ\IRCPRE2.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\VB6\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\VB6\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\VB6\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\VB6\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\VB6\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\VB6\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|FreakZ|Configure Shared Files]
+Applicable=Yes
+C:\Programming\FreakZ\IRCPRE2.EXE=No
+
+[Package|FreakZ|Distribution]
+Type=single
+Size=1.44 MB
+Title=FreakZ IRC Client
+
+[Package|FreakZ|IconGroups]
+Group0=FreakZ
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|FreakZ|FreakZ]
+Icon1=ircpre2.exe
+Title1=FreakZ IRC Client
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|FreakZ|Package]
+PackageFolder=C:\Programming\FreakZ\Package
+ProjectFolder=C:\Programming\FreakZ
+ServerSideCab=
+File1=C:\Programming\FreakZ\Package\setup.exe
+File2=C:\Programming\FreakZ\Package\Setup.Lst
+File3=C:\Programming\FreakZ\Package\ircpre2.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
